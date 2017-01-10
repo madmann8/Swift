@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FDF9F4E1E0CC6BD003425E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF9F4C1E0CC6BD003425E3 /* Main.storyboard */; };
+		5FDF9F501E0CC6BD003425E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF9F4F1E0CC6BD003425E3 /* Assets.xcassets */; };
+		5FDF9F531E0CC6BD003425E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF9F511E0CC6BD003425E3 /* LaunchScreen.storyboard */; };
+		5FDF9F661E0CC7AD003425E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF9F641E0CC7AD003425E3 /* AppDelegate.swift */; };
+		5FDF9F671E0CC7AD003425E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF9F651E0CC7AD003425E3 /* ViewController.swift */; };
+		5FDF9F6F1E0CC7F0003425E3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF9F6E1E0CC7F0003425E3 /* KeyboardViewController.swift */; };
+		5FDF9F731E0CC7F0003425E3 /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5FDF9F6C1E0CC7F0003425E3 /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5FDF9F951E0CCB3A003425E3 /* Slidden.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FDF9F921E0CCB2A003425E3 /* Slidden.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FDF9F711E0CC7F0003425E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDF9F3D1E0CC6BD003425E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FDF9F6B1E0CC7F0003425E3;
+			remoteInfo = Keyboard;
+		};
+		5FDF9F871E0CCA30003425E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDF9F821E0CCA30003425E3 /* Slidden.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 652F0CCB19C2ADFF001FE3C2;
+			remoteInfo = Slidden;
+		};
+		5FDF9F891E0CCA30003425E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDF9F821E0CCA30003425E3 /* Slidden.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 652F0CD619C2ADFF001FE3C2;
+			remoteInfo = SliddenTests;
+		};
+		5FDF9F911E0CCB2A003425E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDF9F8C1E0CCB2A003425E3 /* Slidden.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 652F0CCB19C2ADFF001FE3C2;
+			remoteInfo = Slidden;
+		};
+		5FDF9F931E0CCB2A003425E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FDF9F8C1E0CCB2A003425E3 /* Slidden.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 652F0CD619C2ADFF001FE3C2;
+			remoteInfo = SliddenTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FDF9F771E0CC7F0003425E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5FDF9F731E0CC7F0003425E3 /* Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5FDF9F451E0CC6BD003425E3 /* hapticKeyboardV5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hapticKeyboardV5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDF9F4D1E0CC6BD003425E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FDF9F4F1E0CC6BD003425E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FDF9F521E0CC6BD003425E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FDF9F541E0CC6BD003425E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FDF9F631E0CC7AC003425E3 /* hapticKeyboardV5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hapticKeyboardV5-Bridging-Header.h"; sourceTree = "<group>"; };
+		5FDF9F641E0CC7AD003425E3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FDF9F651E0CC7AD003425E3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FDF9F6C1E0CC7F0003425E3 /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDF9F6E1E0CC7F0003425E3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		5FDF9F701E0CC7F0003425E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FDF9F821E0CCA30003425E3 /* Slidden.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Slidden.xcodeproj; path = Slidden/Slidden.xcodeproj; sourceTree = "<group>"; };
+		5FDF9F8C1E0CCB2A003425E3 /* Slidden.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Slidden.xcodeproj; path = "../../Slidden-master-3/Slidden.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDF9F421E0CC6BD003425E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDF9F691E0CC7F0003425E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDF9F951E0CCB3A003425E3 /* Slidden.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FDF9F3C1E0CC6BD003425E3 = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F8C1E0CCB2A003425E3 /* Slidden.xcodeproj */,
+				5FDF9F471E0CC6BD003425E3 /* hapticKeyboardV5 */,
+				5FDF9F6D1E0CC7F0003425E3 /* Keyboard */,
+				5FDF9F461E0CC6BD003425E3 /* Products */,
+				5FDF9F811E0CCA30003425E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FDF9F461E0CC6BD003425E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F451E0CC6BD003425E3 /* hapticKeyboardV5.app */,
+				5FDF9F6C1E0CC7F0003425E3 /* Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDF9F471E0CC6BD003425E3 /* hapticKeyboardV5 */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F641E0CC7AD003425E3 /* AppDelegate.swift */,
+				5FDF9F651E0CC7AD003425E3 /* ViewController.swift */,
+				5FDF9F4C1E0CC6BD003425E3 /* Main.storyboard */,
+				5FDF9F4F1E0CC6BD003425E3 /* Assets.xcassets */,
+				5FDF9F511E0CC6BD003425E3 /* LaunchScreen.storyboard */,
+				5FDF9F541E0CC6BD003425E3 /* Info.plist */,
+				5FDF9F631E0CC7AC003425E3 /* hapticKeyboardV5-Bridging-Header.h */,
+			);
+			path = hapticKeyboardV5;
+			sourceTree = "<group>";
+		};
+		5FDF9F6D1E0CC7F0003425E3 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F6E1E0CC7F0003425E3 /* KeyboardViewController.swift */,
+				5FDF9F701E0CC7F0003425E3 /* Info.plist */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		5FDF9F811E0CCA30003425E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F821E0CCA30003425E3 /* Slidden.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FDF9F831E0CCA30003425E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F881E0CCA30003425E3 /* Slidden.framework */,
+				5FDF9F8A1E0CCA30003425E3 /* SliddenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDF9F8D1E0CCB2A003425E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF9F921E0CCB2A003425E3 /* Slidden.framework */,
+				5FDF9F941E0CCB2A003425E3 /* SliddenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FDF9F441E0CC6BD003425E3 /* hapticKeyboardV5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDF9F571E0CC6BD003425E3 /* Build configuration list for PBXNativeTarget "hapticKeyboardV5" */;
+			buildPhases = (
+				5FDF9F411E0CC6BD003425E3 /* Sources */,
+				5FDF9F421E0CC6BD003425E3 /* Frameworks */,
+				5FDF9F431E0CC6BD003425E3 /* Resources */,
+				5FDF9F771E0CC7F0003425E3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FDF9F721E0CC7F0003425E3 /* PBXTargetDependency */,
+			);
+			name = hapticKeyboardV5;
+			productName = hapticKeyboardV5;
+			productReference = 5FDF9F451E0CC6BD003425E3 /* hapticKeyboardV5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FDF9F6B1E0CC7F0003425E3 /* Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDF9F741E0CC7F0003425E3 /* Build configuration list for PBXNativeTarget "Keyboard" */;
+			buildPhases = (
+				5FDF9F681E0CC7F0003425E3 /* Sources */,
+				5FDF9F691E0CC7F0003425E3 /* Frameworks */,
+				5FDF9F6A1E0CC7F0003425E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keyboard;
+			productName = Keyboard;
+			productReference = 5FDF9F6C1E0CC7F0003425E3 /* Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDF9F3D1E0CC6BD003425E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luke Mann";
+				TargetAttributes = {
+					5FDF9F441E0CC6BD003425E3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = M2RX96FFDP;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					5FDF9F6B1E0CC7F0003425E3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = M2RX96FFDP;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FDF9F401E0CC6BD003425E3 /* Build configuration list for PBXProject "hapticKeyboardV5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FDF9F3C1E0CC6BD003425E3;
+			productRefGroup = 5FDF9F461E0CC6BD003425E3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5FDF9F831E0CCA30003425E3 /* Products */;
+					ProjectRef = 5FDF9F821E0CCA30003425E3 /* Slidden.xcodeproj */;
+				},
+				{
+					ProductGroup = 5FDF9F8D1E0CCB2A003425E3 /* Products */;
+					ProjectRef = 5FDF9F8C1E0CCB2A003425E3 /* Slidden.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5FDF9F441E0CC6BD003425E3 /* hapticKeyboardV5 */,
+				5FDF9F6B1E0CC7F0003425E3 /* Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5FDF9F881E0CCA30003425E3 /* Slidden.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Slidden.framework;
+			remoteRef = 5FDF9F871E0CCA30003425E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FDF9F8A1E0CCA30003425E3 /* SliddenTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SliddenTests.xctest;
+			remoteRef = 5FDF9F891E0CCA30003425E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FDF9F921E0CCB2A003425E3 /* Slidden.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Slidden.framework;
+			remoteRef = 5FDF9F911E0CCB2A003425E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5FDF9F941E0CCB2A003425E3 /* SliddenTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SliddenTests.xctest;
+			remoteRef = 5FDF9F931E0CCB2A003425E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FDF9F431E0CC6BD003425E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDF9F531E0CC6BD003425E3 /* LaunchScreen.storyboard in Resources */,
+				5FDF9F501E0CC6BD003425E3 /* Assets.xcassets in Resources */,
+				5FDF9F4E1E0CC6BD003425E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDF9F6A1E0CC7F0003425E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FDF9F411E0CC6BD003425E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDF9F671E0CC7AD003425E3 /* ViewController.swift in Sources */,
+				5FDF9F661E0CC7AD003425E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDF9F681E0CC7F0003425E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDF9F6F1E0CC7F0003425E3 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FDF9F721E0CC7F0003425E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FDF9F6B1E0CC7F0003425E3 /* Keyboard */;
+			targetProxy = 5FDF9F711E0CC7F0003425E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FDF9F4C1E0CC6BD003425E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDF9F4D1E0CC6BD003425E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FDF9F511E0CC6BD003425E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDF9F521E0CC6BD003425E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FDF9F551E0CC6BD003425E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FDF9F561E0CC6BD003425E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FDF9F581E0CC6BD003425E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M2RX96FFDP;
+				INFOPLIST_FILE = hapticKeyboardV5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejmann.hapticKeyboardV5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hapticKeyboardV5/hapticKeyboardV5-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5FDF9F591E0CC6BD003425E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M2RX96FFDP;
+				INFOPLIST_FILE = hapticKeyboardV5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejmann.hapticKeyboardV5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hapticKeyboardV5/hapticKeyboardV5-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5FDF9F751E0CC7F0003425E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M2RX96FFDP;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejmann.hapticKeyboardV5.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5FDF9F761E0CC7F0003425E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M2RX96FFDP;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukejmann.hapticKeyboardV5.Keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FDF9F401E0CC6BD003425E3 /* Build configuration list for PBXProject "hapticKeyboardV5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDF9F551E0CC6BD003425E3 /* Debug */,
+				5FDF9F561E0CC6BD003425E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FDF9F571E0CC6BD003425E3 /* Build configuration list for PBXNativeTarget "hapticKeyboardV5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDF9F581E0CC6BD003425E3 /* Debug */,
+				5FDF9F591E0CC6BD003425E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FDF9F741E0CC7F0003425E3 /* Build configuration list for PBXNativeTarget "Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDF9F751E0CC7F0003425E3 /* Debug */,
+				5FDF9F761E0CC7F0003425E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FDF9F3D1E0CC6BD003425E3 /* Project object */;
+}

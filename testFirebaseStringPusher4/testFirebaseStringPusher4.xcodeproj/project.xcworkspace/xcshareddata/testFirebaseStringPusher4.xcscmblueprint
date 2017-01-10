@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "68CA6F4D733C26A1CAC426D8A3E13139C845AE17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EDE978B054832EB498028C3CC646998BE3FB2B78" : 9223372036854775807,
+    "68CA6F4D733C26A1CAC426D8A3E13139C845AE17" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5B90798-01B6-4679-A592-A7075E351BB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EDE978B054832EB498028C3CC646998BE3FB2B78" : "Swift\/friendlychat\/",
+    "68CA6F4D733C26A1CAC426D8A3E13139C845AE17" : "Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "testFirebaseStringPusher4",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "testFirebaseStringPusher4\/testFirebaseStringPusher4.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/madmann8\/Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "68CA6F4D733C26A1CAC426D8A3E13139C845AE17"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/firebase\/friendlychat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDE978B054832EB498028C3CC646998BE3FB2B78"
+    }
+  ]
+}
