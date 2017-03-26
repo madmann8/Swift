@@ -1,0 +1,132 @@
+PODS:
+  - AsyncSwift (2.0.1)
+  - expanding-collection (1.0.4)
+  - Firebase (3.13.0):
+    - Firebase/Core (= 3.13.0)
+  - Firebase/Auth (3.13.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.13.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.0)
+  - Firebase/Database (3.13.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.2)
+  - Firebase/Messaging (3.13.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.2)
+  - Firebase/Storage (3.13.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.0.6)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.5.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.2):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseInstanceID (1.0.9)
+  - FirebaseMessaging (1.2.2):
+    - FirebaseAnalytics (~> 3.7)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (1.0.6):
+    - FirebaseAnalytics (~> 3.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FoldingCell (2.0.3)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.8)
+  - ImagePicker (2.0.0)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - KCFloatingActionButton (2.1.2)
+  - Kingfisher (2.6.1)
+  - LocationPickerViewController (3.0.0)
+  - LTMorphingLabel (0.4.0)
+  - NVActivityIndicatorView (3.4)
+  - PopupController (0.2.0)
+  - Protobuf (3.2.0)
+  - RAMAnimatedTabBarController (2.1.1)
+  - SwiftPhotoGallery (3.1.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - AsyncSwift
+  - expanding-collection
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - FoldingCell
+  - ImagePicker
+  - JSQMessagesViewController
+  - KCFloatingActionButton
+  - Kingfisher (~> 2.4)
+  - LocationPickerViewController
+  - LTMorphingLabel
+  - NVActivityIndicatorView
+  - PopupController
+  - RAMAnimatedTabBarController
+  - SwiftPhotoGallery
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: ae848b2910c3e5a0978f973de2ab2aca61e83f66
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  AsyncSwift: 632138e42ead868b53c745fcde9bf733ce1527ad
+  expanding-collection: be78b5822d7382d3da02b52d52273f4661567a64
+  Firebase: 5bc34d7b5ff5792e3386c8b28dc6265deeab0da4
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: 1c0a13bf59bb95cdd19577252499f0ec6a03e999
+  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
+  FirebaseStorage: 63628572a5fde258f8e933b5fb42697468da0158
+  FoldingCell: 2f3113051609167776743415fc00ed877ac6d62c
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 6f8d8b28b7e345549ac471071608170b31cb4977
+  ImagePicker: 81175d36c2852cb543cb4f5d6c19e28f3e8d90eb
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  KCFloatingActionButton: 1b22ce95d44b51915280df8a8b277eae4a06c3f1
+  Kingfisher: 7e5515bf6c4f2acad91f6400955d2257549cab7b
+  LocationPickerViewController: ee898cc76d9a06083b398c59e67d3c16aa298636
+  LTMorphingLabel: d9a85f16ac306f0e07321d6819964deb2dc69638
+  NVActivityIndicatorView: 5754be63ceecd1df8af37d3c088d81872feeb8b8
+  PopupController: 0b69fdf11cbeaa807789a8c3992599083640988f
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  RAMAnimatedTabBarController: 128e0d71dc802766de575a3c59c6fdcc8e2f921b
+  SwiftPhotoGallery: 85ff48f685dafc5e84639bee5c74ddb4f0f221d3
+  SwiftyJSON: 05cf0e98a950e2ba343735264f5a96b81e755d00
+
+PODFILE CHECKSUM: f990047300ca1c0ac783f9062ab5232fc1d6b82c
+
+COCOAPODS: 1.2.0

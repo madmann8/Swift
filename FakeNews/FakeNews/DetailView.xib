@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="FakeNews" customModuleProvider="target">
+            <connections>
+                <outlet property="credibleLabel2" destination="0nd-cI-nTM" id="eZh-1t-OKk"/>
+                <outlet property="languageLabel2" destination="Pgx-I0-KB4" id="VXx-i6-NSF"/>
+                <outlet property="nameLabel3" destination="EQp-m6-Sth" id="Jzw-5u-6zI"/>
+                <outlet property="notesLabel2" destination="GzV-MB-5HT" id="bqv-1x-KII"/>
+                <outlet property="typeLabel2" destination="ZWA-Aa-Ajm" id="qbO-qm-kor"/>
+                <outlet property="view" destination="iN0-l3-epB" id="do1-xt-pF8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWA-Aa-Ajm">
+                    <rect key="frame" x="186" y="322" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GzV-MB-5HT">
+                    <rect key="frame" x="186" y="383" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nd-cI-nTM">
+                    <rect key="frame" x="186" y="261" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgx-I0-KB4">
+                    <rect key="frame" x="186" y="444" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQp-m6-Sth">
+                    <rect key="frame" x="170" y="186" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0nd-cI-nTM" firstAttribute="top" secondItem="EQp-m6-Sth" secondAttribute="bottom" constant="40" id="CQo-Kc-ESa"/>
+                <constraint firstItem="EQp-m6-Sth" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="200" id="NhI-RL-RpD"/>
+                <constraint firstItem="ZWA-Aa-Ajm" firstAttribute="top" secondItem="0nd-cI-nTM" secondAttribute="bottom" constant="40" id="PE2-4U-leZ"/>
+                <constraint firstItem="GzV-MB-5HT" firstAttribute="top" secondItem="ZWA-Aa-Ajm" secondAttribute="bottom" constant="40" id="QxE-Lv-d02"/>
+                <constraint firstItem="Pgx-I0-KB4" firstAttribute="top" secondItem="GzV-MB-5HT" secondAttribute="bottom" constant="40" id="jsl-lr-ev1"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

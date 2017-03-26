@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-BoldItalic;}
+{\colortbl;\red255\green255\blue255;\red165\green119\blue6;\red4\green32\blue41;\red112\green130\blue132;
+\red85\green120\blue161;\red209\green28\blue36;\red33\green118\blue199;\red82\green0\blue103;\red38\green146\blue134;
+\red71\green91\blue98;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c64706\c46667\c2353;\csgenericrgb\c1569\c12549\c16078;\csgenericrgb\c43922\c50980\c51765;
+\csgenericrgb\c33333\c47059\c63137;\csgenericrgb\c81961\c10980\c14118;\csgenericrgb\c12941\c46275\c78039;\csgenericrgb\c32157\c0\c40392;\csgenericrgb\c14902\c57255\c52549;
+\csgenericrgb\c27843\c35686\c38431;}
+\margl1440\margr1440\vieww16400\viewh12420\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 package \cf4 HassaanStuff\cf2 ;\uc0\u8232 \u8232 import \cf5 java.util.Scanner\cf2 ;\uc0\u8232 \u8232 import \cf5 java.util.Scanner\cf2 ;\uc0\u8232 public class \cf5 Ascending \cf6 \{\uc0\u8232     \cf2 public static void \cf5 main\cf6 (\cf5 String\cf6 [] \cf2 args\cf6 ) \{\uc0\u8232 \u8232         \cf5 Scanner \cf7 input \cf2 = new \cf5 Scanner \cf6 (\cf5 System\cf2 .
+\f1\i\b \cf8 in
+\f0\i0\b0 \cf6 )\cf2 ;\uc0\u8232 \u8232         for \cf6 (\cf2 int \cf7 i\cf2 = \cf9 1\cf2 ; \cf7 i\cf2 <=\cf9 5 \cf2 ; \cf7 i\cf2 ++\cf6 ) \{\uc0\u8232 \u8232             \cf5 System\cf2 .
+\f1\i\b \cf8 out
+\f0\i0\b0 \cf2 .\cf5 println\cf6 (\cf9 "Please input a digit of 2 to 20 digits long: "\cf6 )\cf2 ;\uc0\u8232             \cf5 String \cf7 istr \cf2 = \cf7 input\cf2 .\cf5 nextLine\cf6 ()\cf2 ;\uc0\u8232             char \cf7 t \cf2 = \cf7 istr\cf2 .\cf5 charAt\cf6 (\cf9 0\cf6 )\cf2 ;\uc0\u8232             int \cf7 len \cf2 = \cf7 t \cf2 - \cf9 '0'\cf2 ;\uc0\u8232             
+\f1\i\b \cf10 //System.out.println(len);       \uc0\u8232             
+\f0\i0\b0 \cf5 String \cf7 s \cf2 = \cf7 istr\cf2 .\cf5 substring\cf6 (\cf9 1\cf2 , \cf7 len\cf2 +\cf9 1\cf6 )\cf2 ;\uc0\u8232             
+\f1\i\b \cf10 //System.out.println(s);\uc0\u8232             
+\f0\i0\b0 \cf2 int \cf7 pre_num \cf2 = \cf5 Integer\cf2 .\cf6 valueOf(\cf7 s\cf6 )\cf2 ;\uc0\u8232             
+\f1\i\b \cf10 //System.out.println(pre_num);\uc0\u8232             
+\f0\i0\b0 \cf5 String \cf7 rstr \cf2 = new \cf5 StringBuilder\cf6 (\cf7 istr\cf2 .\cf5 substring\cf6 (\cf7 len\cf2 +\cf9 1\cf6 ))\cf2 .\cf5 reverse\cf6 ()\cf2 .\cf5 toString\cf6 ()\cf2 ;\uc0\u8232             
+\f1\i\b \cf10 //System.out.println(rstr);\uc0\u8232             
+\f0\i0\b0 \cf5 System\cf2 .
+\f1\i\b \cf8 out
+\f0\i0\b0 \cf2 .\cf5 print\cf6 (\cf7 pre_num \cf2 + \cf9 " "\cf6 )\cf2 ;\uc0\u8232 \u8232             int \cf7 cur_num \cf2 = \cf9 0\cf2 ;\uc0\u8232             \cf7 len \cf2 = \cf9 1\cf2 ;\uc0\u8232             int \cf7 loc \cf2 = \cf9 0\cf2 ;\uc0\u8232 \u8232             while \cf6 (\cf7 cur_num \cf2 <= \cf7 pre_num \cf2 && \cf7 loc\cf2 +\cf7 len \cf2 < \cf7 rstr\cf2 .\cf5 length\cf6 () \cf2 || \cf7 loc\cf2 +\cf7 len \cf2 == \cf7 rstr\cf2 .\cf5 length\cf6 ()) \{\uc0\u8232                 \cf5 String \cf7 substr \cf2 = \cf7 rstr\cf2 .\cf5 substring\cf6 (\cf7 loc\cf2 , \cf7 loc\cf2 +\cf7 len\cf6 )\cf2 ;\uc0\u8232                 
+\f1\i\b \cf10 //System.out.println(substr);\uc0\u8232                 
+\f0\i0\b0 \cf7 cur_num \cf2 = \cf5 Integer\cf2 .\cf6 valueOf(\cf7 substr\cf6 )\cf2 ;\uc0\u8232                 
+\f1\i\b \cf10 //System.out.println(cur_num);\uc0\u8232                 
+\f0\i0\b0 \cf2 if \cf6 (\cf7 cur_num \cf2 > \cf7 pre_num\cf6 ) \{\uc0\u8232                     \cf5 System\cf2 .
+\f1\i\b \cf8 out
+\f0\i0\b0 \cf2 .\cf5 print\cf6 (\cf7 cur_num \cf2 + \cf9 " "\cf6 )\cf2 ;\uc0\u8232                     \cf7 pre_num \cf2 = \cf7 cur_num\cf2 ;\uc0\u8232                     
+\f1\i\b \cf10 //System.out.println(cur_num);\uc0\u8232                     //System.out.println(pre_num);\u8232                     
+\f0\i0\b0 \cf7 cur_num \cf2 = \cf9 0\cf2 ;\uc0\u8232                     \cf7 loc \cf2 += \cf7 len\cf2 ;\uc0\u8232                     
+\f1\i\b \cf10 //System.out.println(loc);\uc0\u8232                     
+\f0\i0\b0 \cf7 len \cf2 = \cf9 1\cf2 ;\uc0\u8232                 \cf6 \} \cf2 else \cf6 \{\uc0\u8232                     \cf7 len\cf2 ++;\uc0\u8232                 \cf6 \}\uc0\u8232             \}\u8232             \cf5 System\cf2 .
+\f1\i\b \cf8 out
+\f0\i0\b0 \cf2 .\cf5 println\cf6 (\cf9 "\\n"\cf6 )\cf2 ;\uc0\u8232         \cf6 \}\uc0\u8232 \u8232         \cf7 input\cf2 .\cf5 close\cf6 ()\cf2 ;\uc0\u8232     \cf6 \}\uc0\u8232 \}\u8232 \u8232 \
+}

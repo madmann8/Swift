@@ -1,0 +1,21 @@
+PODS:
+  - Gloss (1.1.1)
+  - Hero (0.1.0)
+  - RAMReel (2.0.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Gloss (~> 1.1)
+  - Hero
+  - RAMReel
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Gloss: 4a892694cba7387efa4102a51f86110651366b18
+  Hero: 14038043c41ea53ba1aa43b4d3655f377d78bea6
+  RAMReel: f9dd6643aaa001b52c55d5fbe4b42170dd271298
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 18f224bec15ce6c4ca12e5130edca6763aec27fa
+
+COCOAPODS: 1.1.1

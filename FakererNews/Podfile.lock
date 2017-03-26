@@ -1,0 +1,35 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Hero (0.1.3)
+  - SwifterSwift (1.6.1)
+  - SwiftOverlays (3.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Hero
+  - SwifterSwift
+  - SwiftOverlays (~> 3.0.0)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: dcf98f9bf3a632a7f40679b7da46f09681e48526
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Hero: 898d486b4bef3509047e5b6489cfb70ff09aafb2
+  SwifterSwift: 7ca26aa33424eb2bce2f4c75c9f4c1c6524fb4b9
+  SwiftOverlays: 4cdd9e4f5c7817fb6348882059eb697e11685fad
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 13f7d579cefa3fcc25a2b2ea9af41fa85b224c87
+
+COCOAPODS: 1.1.1

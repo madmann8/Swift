@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027A0C6FA1DA9F296C057E2848D10893 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9E60A9B94B88CFC3BC25BD42F75067 /* CALayer+Hero.swift */; };
+		03DCD393DF69EE6DE4AD424B1192DD02 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = FAABA88748BFB4549D7B9EEC0997451A /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D7F425CFB628271BFB6FCFF8201BF4F /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA758EE593AC591DF2F71A3B2EAB6F1 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		139A9CEDE5163F58CBB1A3A135DAD6A3 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C0094188EE525C1BE16D38BF0AF4B4 /* UIImage+ChameleonPrivate.m */; };
+		13B4C15325F84ED2EFA801E1E3FECC99 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888DF2A144DC93D625809FF7E221C2C /* HeroDefaultAnimator.swift */; };
+		1B704F3C816C4532F9B7FDFE0625732E /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865948F759A104531106FEAE9C41890C /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29F74E8A334254C68C6720E3B247CE32 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A2844B592EBA5CB95F169AB0FFEAB4 /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DDDE2C06FB4DCC639CFD100F224D6FD /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5E641D0B21748FF3A7A88E88879FD /* UIColor+Chameleon.m */; };
+		314E11E609B178C3738A46DC17695FB1 /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B226D0ED24650BAE7E0653CB8A762 /* HeroContext.swift */; };
+		3887556328EAEC292C15712DCDF85F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		3BDF94BD6BE7655ACA70B59058E23ABD /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B06A86DCFBB278063BBA9A06736340 /* DispatchQueue+Hero.swift */; };
+		3BFABF07B9B720AEF52B217791C1FED4 /* Pods-FakerNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0253C312F45936C924CF4A7665C449C3 /* Pods-FakerNews-dummy.m */; };
+		3D08C4F4E2E65D192D317AED0A8237B3 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761558FEB589CE87D75E1DE4F6FB3432 /* UIColor+ChameleonPrivate.m */; };
+		3F7C154732C2741AA99A65F9021EFB8F /* HeroDefaultAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9AD06EBE30181E4DF766C9C155ED4A /* HeroDefaultAnimatorViewContext.swift */; };
+		44117424757A5E62D87B8BF4B41A4207 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9802251913BA2E45823B94CD4C82F7 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44175621C990C6C64CFC7929EC52D917 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD905F9DB8A590BDE4346721DAA4140 /* SourcePreprocessor.swift */; };
+		459048ECD9FAA42B77566EC56ECAD793 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C566773A7AFCC3949D038F37BA52F7 /* UINavigationController+Chameleon.m */; };
+		4A7F6945FC35DB43E7C78876DD95CB2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		4D25EFE9138173CCDD7653941A09F5D4 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615745BD4DAF1D77E279BA1BC98D3B79 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		5EA9F0ED011B06DEFA8542EEE72508C3 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0829C1A3ADFCDFD796B25BB6179506 /* UIViewController+Chameleon.m */; };
+		604286A8F8A2ACB063BDF97B09D4987C /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = F80EAA7F3823942544BB7AFC7D89B4BF /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D5F0CC8E859CCA5E0F0562F11B90AC /* Pods-FakerNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FD92CDF97705797C94FFFDE4F3309A /* Pods-FakerNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625476DE17B6F149EE61CF30334A0E21 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A2E0A53F97085A7D574901A22544FE /* CAMediaTimingFunction+Hero.swift */; };
+		6589384299C388C822E4374A63E53602 /* SwiftOverlays-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D03FFFE1556E2F4491C8E92F4487C53 /* SwiftOverlays-dummy.m */; };
+		66FE00402F198E2BF7C9F836BF0799EF /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 898B47415E77F2953CA5BD644FBB7A1C /* Hero-dummy.m */; };
+		6712100A2CCB9B987281A02F6778473C /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = DB65B6C3BBF5636DF17AFEBF1CD66F55 /* NSArray+Chameleon.m */; };
+		6E8CA8B882F8551EC48720392D400ABB /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7C70AEB13C0BB98BE4B1E047DF2D11 /* SwiftyJSON-dummy.m */; };
+		7063AFD69975D0742BF68F4A4952F3D4 /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA68CCF04FA7632F5C708071667C8F9 /* HeroModifier.swift */; };
+		76CB293FBB2835704F09BA04A38429F3 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D91AFFC1CFE01ACDD4CD23E07D27BC /* HeroPlugin.swift */; };
+		78281D8673FC507089FCFDC439DEDC16 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = F60A7D84525A398474E1BBA1D5E98AD0 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9E778B1FE0A0634811273E9D1468DE /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C2BD21474325229E2079F776A7697 /* CascadePreprocessor.swift */; };
+		7F103F60A43A687467B0A4E6796DABE4 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF887734E7F0E8BA9C9BDB94DA13A30 /* Hero.swift */; };
+		833F15A28A0D562548517BCA8EAF23B6 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08ABDDCDE8E1EF8DAE70B2B1C52DD63 /* ChameleonShorthand.swift */; };
+		83CFC8F573AD5B75191E162E64C7D039 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7998EB85F39BA3C4A5DBF7398F7A899C /* UIButton+Chameleon.m */; };
+		86F7D970F220974A0E26C3B632C5C74F /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E11894FC251126F19AB7FEEB5E577F64 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E3C905CF264EDE1552447E3DD83F92 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B28B6C742395BDFE235166E57A3083 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E83B5FFFAEC479ADCF524554BEB5CD4 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008EC59C722A9F3B21AE1506E54373CD /* HeroTargetState.swift */; };
+		8ECF929AC5E737EBEB542283886D5E07 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7470A40C03AAE5E9CE6062A72E0F5DD0 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923369708790774BB768672AA79DCAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		95E542740750F827BE2EBE3DE6F62D0E /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0954D7EB2E32BF5FE4FB53BC63725EC /* ChameleonFramework-dummy.m */; };
+		9A3EAF15D3C58FD56A552FD703A9154C /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B709E3CFBB6874F5D51EA4BE9065AE4 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6AD39C81FAF37861FC0FEC41022146 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C4E73092908A654DBD77CB5BB33676 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D9B6B29514653456407BD127A7D3340 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D34B56FDA0A743D70C0B121E722E3 /* Array+HeroModifier.swift */; };
+		9E68680458F8CAFEDC5DE623A12148EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		9F3661F97966D4DE81A78BFEB758E7BB /* SwiftOverlays-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B60320FDE24D61BBE52F4432B28D1B7C /* SwiftOverlays-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A664D0A12D5F3DBD08A7E8DFE3AE83E2 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C27E8121A422A71760A226A60EB2DA7 /* UIView+ChameleonPrivate.m */; };
+		A67521FF715C6DCEF77255EB55A2B25C /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE132A633EB59B0E6C5BF604ED749C52 /* HeroTypes.swift */; };
+		AA1FA206BD13309407A81D0C6B8E54B8 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA629C7DC5FB06DBF4293EEADFF46F31 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE50A830DDD59CE53F7525262C9CD7C6 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985099F7A3AE4BF1EDC59B1486170046 /* MatchPreprocessor.swift */; };
+		AF1BED44922549E6D1E2FB3F2C7A1482 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FE5F87DB560B3EDCF8455173E9C1C5 /* BasePreprocessor.swift */; };
+		B26038F91C7C4CC322D7F25C5D16FE9E /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B49799385E85C41A6E2930CC13718ED6 /* ChameleonConstants.m */; };
+		B350404118EC9587A1950F9FF0E1822F /* SwiftOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ABA9614B34517E4F53A33FC9DF6258 /* SwiftOverlays.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4EA53699AA19822E674188743266B2B /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DFAE198CA6AE1B84E005E862AE2E54BD /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53C1FCE6752A1DA2C8E2D02AC220BBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		BFA97401155C4E14893D9AA1E0D1EC80 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E633DEBEA05FE90354716F99956710 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C8BB46937DD0BBC7FBE25E298052F8 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3C6C10F817A7D79790C5CD4158EB11 /* UIAppearance+Swift.m */; };
+		C78AC9DF55C43B62D6851B2F30ADFE0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */; };
+		D46A8B7D6A4BF786A0815B1172785802 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA1D9C4355917E23F80A82175CC7BE /* CG+Hero.swift */; };
+		D5FAFC3C89B922BB4FFB6C0516EAF3D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */; };
+		DB5FB611FB6EBF2F2BA7B78FE0CED535 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 262A79D724E56109B73AEF7059F2C509 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8CA3AC87FC756B60E21CE2C4DE67F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */; };
+		E347AB7059BCEC4B0FA1398228A7AF24 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC38B23DB5A225CDA4EB8536ACE5E9E9 /* SwiftyJSON.swift */; };
+		E7FA38FEAF957D69E92153FBAFB3DB40 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E57A69D1959054A9B1963262DC3A1B /* Chameleon_.m */; };
+		E83DB97BCAA777A55B7768927C71A684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */; };
+		EA466EC03111084E2CEA55E5EC653663 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E574B436C0A38AA0006F3836F7CB6CC /* HeroDebugView.swift */; };
+		EC786817C5CEBCD51A4C9EC9B883ED6F /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = CC47CBB63D26761278CBD627ADB85A6E /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4DBD1E13182AA813DC1237FA6E3A42 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F76C29ACCD34987583212E3F92C7CF8 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4809092AD44A54DA899038ED66B2C /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC825F0A95A2A0E7323AB89EA441BDD /* UIKit+Hero.swift */; };
+		FB2C57F99A2FA6D3B31352C6587D9564 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10D844756A5DF9B5D4A16CC4245D022 /* HeroDebugPlugin.swift */; };
+		FB82C1293D7DDE0D3E2E6D68CDD5852C /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 853A6D331A5FA163864701C807164FA8 /* UILabel+Chameleon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E90E57D224925D16F7DC74D79CD44DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DDBA3480D7A3F5EC3875B6495EF0C6B;
+			remoteInfo = SwiftOverlays;
+		};
+		6F60C2642074C431A9C520489844E01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76BD4592010354D6C23D6ECCA20D83A8;
+			remoteInfo = ChameleonFramework;
+		};
+		818E7E80E8DE62955EBDB1511A6E7F7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46191C3323F298D96BEBE944B196B0DA;
+			remoteInfo = SwiftyJSON;
+		};
+		AE106D763C6CF7B17813C7A2AC42188C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC08580AE5A802626154E0BCABF642B;
+			remoteInfo = Hero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008EC59C722A9F3B21AE1506E54373CD /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		0253C312F45936C924CF4A7665C449C3 /* Pods-FakerNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FakerNews-dummy.m"; sourceTree = "<group>"; };
+		028F8B808B9A9C9B25BD741F85F214FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FD92CDF97705797C94FFFDE4F3309A /* Pods-FakerNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FakerNews-umbrella.h"; sourceTree = "<group>"; };
+		0608DB03D3FF41C32148E6DC4A7CB9CA /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		0B411EB37F333E9120198937E822B245 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA5E641D0B21748FF3A7A88E88879FD /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0F76C29ACCD34987583212E3F92C7CF8 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		142D00A2900B367F469DF6D75A3122A4 /* Pods-FakerNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FakerNews.modulemap"; sourceTree = "<group>"; };
+		19612FCBBCB7439BC44928216E26910F /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		1B221A1D4F927A89C99A2E5DC6251683 /* Pods-FakerNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakerNews-resources.sh"; sourceTree = "<group>"; };
+		1DD905F9DB8A590BDE4346721DAA4140 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		20C0094188EE525C1BE16D38BF0AF4B4 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		24D5EC11A34FA606CA7788A2BC488201 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		262A79D724E56109B73AEF7059F2C509 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		2A9AD06EBE30181E4DF766C9C155ED4A /* HeroDefaultAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimatorViewContext.swift; path = Sources/HeroDefaultAnimatorViewContext.swift; sourceTree = "<group>"; };
+		2C96597FE249F9B47C9552C5E0A6B98F /* SwiftOverlays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOverlays.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9802251913BA2E45823B94CD4C82F7 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		2EBA1D9C4355917E23F80A82175CC7BE /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/CG+Hero.swift"; sourceTree = "<group>"; };
+		2EC825F0A95A2A0E7323AB89EA441BDD /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		31425D28EB2D9514835DCFC5EE034E79 /* SwiftOverlays.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftOverlays.modulemap; sourceTree = "<group>"; };
+		37A2844B592EBA5CB95F169AB0FFEAB4 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		3AD9EFC040102CCC43D595BAB6EE4436 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		3F0B0ACEE95D8E94B5B2B989DEA006BC /* Pods_FakerNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakerNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA68CCF04FA7632F5C708071667C8F9 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5392E1A4DEC5AB25FF5E30927D3E8A5B /* SwiftOverlays-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOverlays-prefix.pch"; sourceTree = "<group>"; };
+		5888DF2A144DC93D625809FF7E221C2C /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		5B709E3CFBB6874F5D51EA4BE9065AE4 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		5E574B436C0A38AA0006F3836F7CB6CC /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = Sources/HeroDebugView.swift; sourceTree = "<group>"; };
+		5FD02E5DCDE95A1AE745B266BCA74117 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615745BD4DAF1D77E279BA1BC98D3B79 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		684C2BD21474325229E2079F776A7697 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		6D03FFFE1556E2F4491C8E92F4487C53 /* SwiftOverlays-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftOverlays-dummy.m"; sourceTree = "<group>"; };
+		6EA300955BFD0A8B4EA7D56175AE6E86 /* Pods-FakerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakerNews.release.xcconfig"; sourceTree = "<group>"; };
+		7131565EC0E7DB9192653C0377AEDF38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7470A40C03AAE5E9CE6062A72E0F5DD0 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		761558FEB589CE87D75E1DE4F6FB3432 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		7998EB85F39BA3C4A5DBF7398F7A899C /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		7AF887734E7F0E8BA9C9BDB94DA13A30 /* Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hero.swift; path = Sources/Hero.swift; sourceTree = "<group>"; };
+		7F5396857894F6B3ABE8122AAB551CFF /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FE5F87DB560B3EDCF8455173E9C1C5 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/BasePreprocessor.swift; sourceTree = "<group>"; };
+		853A6D331A5FA163864701C807164FA8 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		865948F759A104531106FEAE9C41890C /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		898B47415E77F2953CA5BD644FBB7A1C /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		8C27E8121A422A71760A226A60EB2DA7 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		8C9E60A9B94B88CFC3BC25BD42F75067 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B28B6C742395BDFE235166E57A3083 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		946B3626E4CCCB1138379677B328DBCE /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		95E85E345A300A3C385AACB8C4C3F1C1 /* SwiftOverlays.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftOverlays.xcconfig; sourceTree = "<group>"; };
+		96A2E0A53F97085A7D574901A22544FE /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		985099F7A3AE4BF1EDC59B1486170046 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		A1C566773A7AFCC3949D038F37BA52F7 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		A282E53532B16B3BEBFD703DEF6FA3BE /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		A2D91AFFC1CFE01ACDD4CD23E07D27BC /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		A3C4E73092908A654DBD77CB5BB33676 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		A55A8E4796E6C40A5E72FEAEB36E68CD /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Hero.modulemap; sourceTree = "<group>"; };
+		AD0829C1A3ADFCDFD796B25BB6179506 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		ADBE70BE90E70C353FBC4FDFC606A455 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA758EE593AC591DF2F71A3B2EAB6F1 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		B49799385E85C41A6E2930CC13718ED6 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		B60320FDE24D61BBE52F4432B28D1B7C /* SwiftOverlays-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOverlays-umbrella.h"; sourceTree = "<group>"; };
+		BC7C70AEB13C0BB98BE4B1E047DF2D11 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		BEC1C07BBF3E5F58C17887294F9DAC5B /* Pods-FakerNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FakerNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0954D7EB2E32BF5FE4FB53BC63725EC /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		CC38B23DB5A225CDA4EB8536ACE5E9E9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		CC47CBB63D26761278CBD627ADB85A6E /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		CE3C6C10F817A7D79790C5CD4158EB11 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		D075997A7360F72D112418B2083F79CB /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		D2E633DEBEA05FE90354716F99956710 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		D6094BC1E1C66CA933D1660B9F3D6B08 /* Pods-FakerNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FakerNews-frameworks.sh"; sourceTree = "<group>"; };
+		DA2BDBBF1390631507F1ED64C4129A4C /* Pods-FakerNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FakerNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA9020038860DDE6046A1E1BF161BE00 /* Pods-FakerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FakerNews.debug.xcconfig"; sourceTree = "<group>"; };
+		DB65B6C3BBF5636DF17AFEBF1CD66F55 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		DC0CA4F517DE757735479BE572CF7166 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6D34B56FDA0A743D70C0B121E722E3 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		DF65B3E35409C0B07D42B6522F5D856E /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		DFAE198CA6AE1B84E005E862AE2E54BD /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		E08ABDDCDE8E1EF8DAE70B2B1C52DD63 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		E10D844756A5DF9B5D4A16CC4245D022 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = Sources/HeroDebugPlugin.swift; sourceTree = "<group>"; };
+		E11894FC251126F19AB7FEEB5E577F64 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		E1ABA9614B34517E4F53A33FC9DF6258 /* SwiftOverlays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftOverlays.swift; path = SwiftOverlays/SwiftOverlays.swift; sourceTree = "<group>"; };
+		E1B06A86DCFBB278063BBA9A06736340 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE132A633EB59B0E6C5BF604ED749C52 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		F19B226D0ED24650BAE7E0653CB8A762 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		F2E57A69D1959054A9B1963262DC3A1B /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		F30232D5485D7C87C6C308CF6E45FD3B /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60A7D84525A398474E1BBA1D5E98AD0 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		F80EAA7F3823942544BB7AFC7D89B4BF /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		FA629C7DC5FB06DBF4293EEADFF46F31 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		FAABA88748BFB4549D7B9EEC0997451A /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70A2903C79F100D96233FEFBE06735CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E68680458F8CAFEDC5DE623A12148EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93522DDB93CDE927FF6C4F9E53B4AE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83DB97BCAA777A55B7768927C71A684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9740B707E6EA5B101D704452871349B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53C1FCE6752A1DA2C8E2D02AC220BBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FD70AC579E74592E2EAC475ADFB8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FAFC3C89B922BB4FFB6C0516EAF3D2 /* CoreGraphics.framework in Frameworks */,
+				923369708790774BB768672AA79DCAD4 /* Foundation.framework in Frameworks */,
+				C78AC9DF55C43B62D6851B2F30ADFE0F /* QuartzCore.framework in Frameworks */,
+				4A7F6945FC35DB43E7C78876DD95CB2F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA9A2F190E43837BD9F43C58751F073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3887556328EAEC292C15712DCDF85F66 /* Foundation.framework in Frameworks */,
+				DB8CA3AC87FC756B60E21CE2C4DE67F4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2691F93227E549B2A03FB9E6D0C3C623 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		192D69091A1A15AAFC1E026EF84851AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A55A8E4796E6C40A5E72FEAEB36E68CD /* Hero.modulemap */,
+				0608DB03D3FF41C32148E6DC4A7CB9CA /* Hero.xcconfig */,
+				898B47415E77F2953CA5BD644FBB7A1C /* Hero-dummy.m */,
+				24D5EC11A34FA606CA7788A2BC488201 /* Hero-prefix.pch */,
+				FA629C7DC5FB06DBF4293EEADFF46F31 /* Hero-umbrella.h */,
+				5FD02E5DCDE95A1AE745B266BCA74117 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		1BF198A6F093330A6CC738ECC5447202 /* SwiftOverlays */ = {
+			isa = PBXGroup;
+			children = (
+				E1ABA9614B34517E4F53A33FC9DF6258 /* SwiftOverlays.swift */,
+				DCB72035DD8916006B4FE56203E9CB14 /* Support Files */,
+			);
+			path = SwiftOverlays;
+			sourceTree = "<group>";
+		};
+		1EC3F9932255397B5DD9EADAB9A38567 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				CC38B23DB5A225CDA4EB8536ACE5E9E9 /* SwiftyJSON.swift */,
+				BFD831A9863C5F3698467CDAF51331B0 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		2691F93227E549B2A03FB9E6D0C3C623 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D8EF2301073B01E30612B5B1BD94446 /* CoreGraphics.framework */,
+				6647ACC906E3FCEEFF3813BB32B1FCF6 /* Foundation.framework */,
+				51498E299B7CB17BCC8B54F93C150FAA /* QuartzCore.framework */,
+				EC1FD743D031D373EDF29CC526F758E2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3BAA8BC514272C3F05E20DDBC0E29C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CA4F517DE757735479BE572CF7166 /* ChameleonFramework.framework */,
+				F30232D5485D7C87C6C308CF6E45FD3B /* Hero.framework */,
+				3F0B0ACEE95D8E94B5B2B989DEA006BC /* Pods_FakerNews.framework */,
+				2C96597FE249F9B47C9552C5E0A6B98F /* SwiftOverlays.framework */,
+				7F5396857894F6B3ABE8122AAB551CFF /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47376FEACC3287ACA4FAFD6DA200E7CA /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				0F76C29ACCD34987583212E3F92C7CF8 /* Chameleon.h */,
+				F60A7D84525A398474E1BBA1D5E98AD0 /* Chameleon_.h */,
+				F2E57A69D1959054A9B1963262DC3A1B /* Chameleon_.m */,
+				5B709E3CFBB6874F5D51EA4BE9065AE4 /* ChameleonConstants.h */,
+				B49799385E85C41A6E2930CC13718ED6 /* ChameleonConstants.m */,
+				CC47CBB63D26761278CBD627ADB85A6E /* ChameleonEnums.h */,
+				DFAE198CA6AE1B84E005E862AE2E54BD /* ChameleonMacros.h */,
+				37A2844B592EBA5CB95F169AB0FFEAB4 /* NSArray+Chameleon.h */,
+				DB65B6C3BBF5636DF17AFEBF1CD66F55 /* NSArray+Chameleon.m */,
+				A3C4E73092908A654DBD77CB5BB33676 /* UIAppearance+Swift.h */,
+				CE3C6C10F817A7D79790C5CD4158EB11 /* UIAppearance+Swift.m */,
+				AFA758EE593AC591DF2F71A3B2EAB6F1 /* UIButton+Chameleon.h */,
+				7998EB85F39BA3C4A5DBF7398F7A899C /* UIButton+Chameleon.m */,
+				262A79D724E56109B73AEF7059F2C509 /* UIColor+Chameleon.h */,
+				0BA5E641D0B21748FF3A7A88E88879FD /* UIColor+Chameleon.m */,
+				2C9802251913BA2E45823B94CD4C82F7 /* UIColor+ChameleonPrivate.h */,
+				761558FEB589CE87D75E1DE4F6FB3432 /* UIColor+ChameleonPrivate.m */,
+				E11894FC251126F19AB7FEEB5E577F64 /* UIImage+ChameleonPrivate.h */,
+				20C0094188EE525C1BE16D38BF0AF4B4 /* UIImage+ChameleonPrivate.m */,
+				F80EAA7F3823942544BB7AFC7D89B4BF /* UILabel+Chameleon.h */,
+				853A6D331A5FA163864701C807164FA8 /* UILabel+Chameleon.m */,
+				D2E633DEBEA05FE90354716F99956710 /* UINavigationController+Chameleon.h */,
+				A1C566773A7AFCC3949D038F37BA52F7 /* UINavigationController+Chameleon.m */,
+				7470A40C03AAE5E9CE6062A72E0F5DD0 /* UIView+ChameleonPrivate.h */,
+				8C27E8121A422A71760A226A60EB2DA7 /* UIView+ChameleonPrivate.m */,
+				FAABA88748BFB4549D7B9EEC0997451A /* UIViewController+Chameleon.h */,
+				AD0829C1A3ADFCDFD796B25BB6179506 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		6F87A43343C4A0B3D612816C3D3471D4 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D34B56FDA0A743D70C0B121E722E3 /* Array+HeroModifier.swift */,
+				81FE5F87DB560B3EDCF8455173E9C1C5 /* BasePreprocessor.swift */,
+				8C9E60A9B94B88CFC3BC25BD42F75067 /* CALayer+Hero.swift */,
+				96A2E0A53F97085A7D574901A22544FE /* CAMediaTimingFunction+Hero.swift */,
+				684C2BD21474325229E2079F776A7697 /* CascadePreprocessor.swift */,
+				2EBA1D9C4355917E23F80A82175CC7BE /* CG+Hero.swift */,
+				E1B06A86DCFBB278063BBA9A06736340 /* DispatchQueue+Hero.swift */,
+				7AF887734E7F0E8BA9C9BDB94DA13A30 /* Hero.swift */,
+				F19B226D0ED24650BAE7E0653CB8A762 /* HeroContext.swift */,
+				E10D844756A5DF9B5D4A16CC4245D022 /* HeroDebugPlugin.swift */,
+				5E574B436C0A38AA0006F3836F7CB6CC /* HeroDebugView.swift */,
+				5888DF2A144DC93D625809FF7E221C2C /* HeroDefaultAnimator.swift */,
+				2A9AD06EBE30181E4DF766C9C155ED4A /* HeroDefaultAnimatorViewContext.swift */,
+				4FA68CCF04FA7632F5C708071667C8F9 /* HeroModifier.swift */,
+				A2D91AFFC1CFE01ACDD4CD23E07D27BC /* HeroPlugin.swift */,
+				008EC59C722A9F3B21AE1506E54373CD /* HeroTargetState.swift */,
+				EE132A633EB59B0E6C5BF604ED749C52 /* HeroTypes.swift */,
+				615745BD4DAF1D77E279BA1BC98D3B79 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				985099F7A3AE4BF1EDC59B1486170046 /* MatchPreprocessor.swift */,
+				1DD905F9DB8A590BDE4346721DAA4140 /* SourcePreprocessor.swift */,
+				2EC825F0A95A2A0E7323AB89EA441BDD /* UIKit+Hero.swift */,
+				192D69091A1A15AAFC1E026EF84851AF /* Support Files */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				A76AC7C1B8B6A1765E142C500942C751 /* Pods */,
+				3BAA8BC514272C3F05E20DDBC0E29C16 /* Products */,
+				DD526415C14C16D07CCA5FDFE75C7A4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		866D72FB89DA647FE29290DC7090B651 /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				47376FEACC3287ACA4FAFD6DA200E7CA /* Default */,
+				BB48116A04E8CD226B1FCF3D97A13F3D /* Support Files */,
+				DCCD940747F1FA5803458B77149D1429 /* Swift */,
+			);
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		A63F793C7C84A382C9095921E2B40C09 /* Pods-FakerNews */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE70BE90E70C353FBC4FDFC606A455 /* Info.plist */,
+				142D00A2900B367F469DF6D75A3122A4 /* Pods-FakerNews.modulemap */,
+				BEC1C07BBF3E5F58C17887294F9DAC5B /* Pods-FakerNews-acknowledgements.markdown */,
+				DA2BDBBF1390631507F1ED64C4129A4C /* Pods-FakerNews-acknowledgements.plist */,
+				0253C312F45936C924CF4A7665C449C3 /* Pods-FakerNews-dummy.m */,
+				D6094BC1E1C66CA933D1660B9F3D6B08 /* Pods-FakerNews-frameworks.sh */,
+				1B221A1D4F927A89C99A2E5DC6251683 /* Pods-FakerNews-resources.sh */,
+				03FD92CDF97705797C94FFFDE4F3309A /* Pods-FakerNews-umbrella.h */,
+				DA9020038860DDE6046A1E1BF161BE00 /* Pods-FakerNews.debug.xcconfig */,
+				6EA300955BFD0A8B4EA7D56175AE6E86 /* Pods-FakerNews.release.xcconfig */,
+			);
+			name = "Pods-FakerNews";
+			path = "Target Support Files/Pods-FakerNews";
+			sourceTree = "<group>";
+		};
+		A76AC7C1B8B6A1765E142C500942C751 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				866D72FB89DA647FE29290DC7090B651 /* ChameleonFramework */,
+				6F87A43343C4A0B3D612816C3D3471D4 /* Hero */,
+				1BF198A6F093330A6CC738ECC5447202 /* SwiftOverlays */,
+				1EC3F9932255397B5DD9EADAB9A38567 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB48116A04E8CD226B1FCF3D97A13F3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D075997A7360F72D112418B2083F79CB /* ChameleonFramework.modulemap */,
+				DF65B3E35409C0B07D42B6522F5D856E /* ChameleonFramework.xcconfig */,
+				C0954D7EB2E32BF5FE4FB53BC63725EC /* ChameleonFramework-dummy.m */,
+				3AD9EFC040102CCC43D595BAB6EE4436 /* ChameleonFramework-prefix.pch */,
+				865948F759A104531106FEAE9C41890C /* ChameleonFramework-umbrella.h */,
+				028F8B808B9A9C9B25BD741F85F214FC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		BFD831A9863C5F3698467CDAF51331B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7131565EC0E7DB9192653C0377AEDF38 /* Info.plist */,
+				19612FCBBCB7439BC44928216E26910F /* SwiftyJSON.modulemap */,
+				946B3626E4CCCB1138379677B328DBCE /* SwiftyJSON.xcconfig */,
+				BC7C70AEB13C0BB98BE4B1E047DF2D11 /* SwiftyJSON-dummy.m */,
+				A282E53532B16B3BEBFD703DEF6FA3BE /* SwiftyJSON-prefix.pch */,
+				93B28B6C742395BDFE235166E57A3083 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		DCB72035DD8916006B4FE56203E9CB14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B411EB37F333E9120198937E822B245 /* Info.plist */,
+				31425D28EB2D9514835DCFC5EE034E79 /* SwiftOverlays.modulemap */,
+				95E85E345A300A3C385AACB8C4C3F1C1 /* SwiftOverlays.xcconfig */,
+				6D03FFFE1556E2F4491C8E92F4487C53 /* SwiftOverlays-dummy.m */,
+				5392E1A4DEC5AB25FF5E30927D3E8A5B /* SwiftOverlays-prefix.pch */,
+				B60320FDE24D61BBE52F4432B28D1B7C /* SwiftOverlays-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftOverlays";
+			sourceTree = "<group>";
+		};
+		DCCD940747F1FA5803458B77149D1429 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E08ABDDCDE8E1EF8DAE70B2B1C52DD63 /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		DD526415C14C16D07CCA5FDFE75C7A4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63F793C7C84A382C9095921E2B40C09 /* Pods-FakerNews */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27B2787BB0EB6D245589C87A3187715B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E3C905CF264EDE1552447E3DD83F92 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A51E0125CBC103CAA4CB117D6941C53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D5F0CC8E859CCA5E0F0562F11B90AC /* Pods-FakerNews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDADEC125C16A6C197A11E2539D85ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3661F97966D4DE81A78BFEB758E7BB /* SwiftOverlays-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D4457F7F2F28A0B99FF8F1B98219F8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4DBD1E13182AA813DC1237FA6E3A42 /* Chameleon.h in Headers */,
+				78281D8673FC507089FCFDC439DEDC16 /* Chameleon_.h in Headers */,
+				9A3EAF15D3C58FD56A552FD703A9154C /* ChameleonConstants.h in Headers */,
+				EC786817C5CEBCD51A4C9EC9B883ED6F /* ChameleonEnums.h in Headers */,
+				1B704F3C816C4532F9B7FDFE0625732E /* ChameleonFramework-umbrella.h in Headers */,
+				B4EA53699AA19822E674188743266B2B /* ChameleonMacros.h in Headers */,
+				29F74E8A334254C68C6720E3B247CE32 /* NSArray+Chameleon.h in Headers */,
+				9B6AD39C81FAF37861FC0FEC41022146 /* UIAppearance+Swift.h in Headers */,
+				0D7F425CFB628271BFB6FCFF8201BF4F /* UIButton+Chameleon.h in Headers */,
+				DB5FB611FB6EBF2F2BA7B78FE0CED535 /* UIColor+Chameleon.h in Headers */,
+				44117424757A5E62D87B8BF4B41A4207 /* UIColor+ChameleonPrivate.h in Headers */,
+				86F7D970F220974A0E26C3B632C5C74F /* UIImage+ChameleonPrivate.h in Headers */,
+				604286A8F8A2ACB063BDF97B09D4987C /* UILabel+Chameleon.h in Headers */,
+				BFA97401155C4E14893D9AA1E0D1EC80 /* UINavigationController+Chameleon.h in Headers */,
+				8ECF929AC5E737EBEB542283886D5E07 /* UIView+ChameleonPrivate.h in Headers */,
+				03DCD393DF69EE6DE4AD424B1192DD02 /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6805BADB447E02EA38B7F0348D83C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1FA206BD13309407A81D0C6B8E54B8 /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46191C3323F298D96BEBE944B196B0DA /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBD9A9121B14F31166F0840EE157C17 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				E3126FFFD7C9B59DD2A3FDAA82F0175D /* Sources */,
+				9740B707E6EA5B101D704452871349B0 /* Frameworks */,
+				27B2787BB0EB6D245589C87A3187715B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 7F5396857894F6B3ABE8122AAB551CFF /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58A7BD3D6663665C0EC1C7BAF853974D /* Pods-FakerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CBDA8B214D3457E85226C0A96431FDF /* Build configuration list for PBXNativeTarget "Pods-FakerNews" */;
+			buildPhases = (
+				E0CCA491A5E2EFB0828E2577C1B5BF41 /* Sources */,
+				70A2903C79F100D96233FEFBE06735CB /* Frameworks */,
+				4A51E0125CBC103CAA4CB117D6941C53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DACDE2F70904CB2552F4684F84B77E4 /* PBXTargetDependency */,
+				271E2747A8F0446064FF1597C2000AEB /* PBXTargetDependency */,
+				DEE35CDD1EC5E7B169625269BED5E02E /* PBXTargetDependency */,
+				FAB6FD95C6155B53A6D701FC02491B17 /* PBXTargetDependency */,
+			);
+			name = "Pods-FakerNews";
+			productName = "Pods-FakerNews";
+			productReference = 3F0B0ACEE95D8E94B5B2B989DEA006BC /* Pods_FakerNews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DDBA3480D7A3F5EC3875B6495EF0C6B /* SwiftOverlays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9BE2A98FD32A92C06F220785F909C3 /* Build configuration list for PBXNativeTarget "SwiftOverlays" */;
+			buildPhases = (
+				BFCC2B5F499B945BA27E59E57D62E19B /* Sources */,
+				93522DDB93CDE927FF6C4F9E53B4AE4A /* Frameworks */,
+				8BDADEC125C16A6C197A11E2539D85ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftOverlays;
+			productName = SwiftOverlays;
+			productReference = 2C96597FE249F9B47C9552C5E0A6B98F /* SwiftOverlays.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07398A672F3D6D682C4B2E94C83E2A0D /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				FA68695022B7C8DC3A47D6DF81079652 /* Sources */,
+				E3FD70AC579E74592E2EAC475ADFB8D9 /* Frameworks */,
+				8D4457F7F2F28A0B99FF8F1B98219F8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = DC0CA4F517DE757735479BE572CF7166 /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBC08580AE5A802626154E0BCABF642B /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CCCFEE96FFA0873D18EA97455B246E /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				32DF12C32E1619642C9C98C1D909B85F /* Sources */,
+				FEA9A2F190E43837BD9F43C58751F073 /* Frameworks */,
+				AA6805BADB447E02EA38B7F0348D83C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = F30232D5485D7C87C6C308CF6E45FD3B /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3BAA8BC514272C3F05E20DDBC0E29C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */,
+				CBC08580AE5A802626154E0BCABF642B /* Hero */,
+				58A7BD3D6663665C0EC1C7BAF853974D /* Pods-FakerNews */,
+				5DDBA3480D7A3F5EC3875B6495EF0C6B /* SwiftOverlays */,
+				46191C3323F298D96BEBE944B196B0DA /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32DF12C32E1619642C9C98C1D909B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9B6B29514653456407BD127A7D3340 /* Array+HeroModifier.swift in Sources */,
+				AF1BED44922549E6D1E2FB3F2C7A1482 /* BasePreprocessor.swift in Sources */,
+				027A0C6FA1DA9F296C057E2848D10893 /* CALayer+Hero.swift in Sources */,
+				625476DE17B6F149EE61CF30334A0E21 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				7A9E778B1FE0A0634811273E9D1468DE /* CascadePreprocessor.swift in Sources */,
+				D46A8B7D6A4BF786A0815B1172785802 /* CG+Hero.swift in Sources */,
+				3BDF94BD6BE7655ACA70B59058E23ABD /* DispatchQueue+Hero.swift in Sources */,
+				66FE00402F198E2BF7C9F836BF0799EF /* Hero-dummy.m in Sources */,
+				7F103F60A43A687467B0A4E6796DABE4 /* Hero.swift in Sources */,
+				314E11E609B178C3738A46DC17695FB1 /* HeroContext.swift in Sources */,
+				FB2C57F99A2FA6D3B31352C6587D9564 /* HeroDebugPlugin.swift in Sources */,
+				EA466EC03111084E2CEA55E5EC653663 /* HeroDebugView.swift in Sources */,
+				13B4C15325F84ED2EFA801E1E3FECC99 /* HeroDefaultAnimator.swift in Sources */,
+				3F7C154732C2741AA99A65F9021EFB8F /* HeroDefaultAnimatorViewContext.swift in Sources */,
+				7063AFD69975D0742BF68F4A4952F3D4 /* HeroModifier.swift in Sources */,
+				76CB293FBB2835704F09BA04A38429F3 /* HeroPlugin.swift in Sources */,
+				8E83B5FFFAEC479ADCF524554BEB5CD4 /* HeroTargetState.swift in Sources */,
+				A67521FF715C6DCEF77255EB55A2B25C /* HeroTypes.swift in Sources */,
+				4D25EFE9138173CCDD7653941A09F5D4 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				AE50A830DDD59CE53F7525262C9CD7C6 /* MatchPreprocessor.swift in Sources */,
+				44175621C990C6C64CFC7929EC52D917 /* SourcePreprocessor.swift in Sources */,
+				F4F4809092AD44A54DA899038ED66B2C /* UIKit+Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCC2B5F499B945BA27E59E57D62E19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6589384299C388C822E4374A63E53602 /* SwiftOverlays-dummy.m in Sources */,
+				B350404118EC9587A1950F9FF0E1822F /* SwiftOverlays.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CCA491A5E2EFB0828E2577C1B5BF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFABF07B9B720AEF52B217791C1FED4 /* Pods-FakerNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3126FFFD7C9B59DD2A3FDAA82F0175D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8CA8B882F8551EC48720392D400ABB /* SwiftyJSON-dummy.m in Sources */,
+				E347AB7059BCEC4B0FA1398228A7AF24 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA68695022B7C8DC3A47D6DF81079652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FA38FEAF957D69E92153FBAFB3DB40 /* Chameleon_.m in Sources */,
+				B26038F91C7C4CC322D7F25C5D16FE9E /* ChameleonConstants.m in Sources */,
+				95E542740750F827BE2EBE3DE6F62D0E /* ChameleonFramework-dummy.m in Sources */,
+				833F15A28A0D562548517BCA8EAF23B6 /* ChameleonShorthand.swift in Sources */,
+				6712100A2CCB9B987281A02F6778473C /* NSArray+Chameleon.m in Sources */,
+				C3C8BB46937DD0BBC7FBE25E298052F8 /* UIAppearance+Swift.m in Sources */,
+				83CFC8F573AD5B75191E162E64C7D039 /* UIButton+Chameleon.m in Sources */,
+				2DDDE2C06FB4DCC639CFD100F224D6FD /* UIColor+Chameleon.m in Sources */,
+				3D08C4F4E2E65D192D317AED0A8237B3 /* UIColor+ChameleonPrivate.m in Sources */,
+				139A9CEDE5163F58CBB1A3A135DAD6A3 /* UIImage+ChameleonPrivate.m in Sources */,
+				FB82C1293D7DDE0D3E2E6D68CDD5852C /* UILabel+Chameleon.m in Sources */,
+				459048ECD9FAA42B77566EC56ECAD793 /* UINavigationController+Chameleon.m in Sources */,
+				A664D0A12D5F3DBD08A7E8DFE3AE83E2 /* UIView+ChameleonPrivate.m in Sources */,
+				5EA9F0ED011B06DEFA8542EEE72508C3 /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DACDE2F70904CB2552F4684F84B77E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 76BD4592010354D6C23D6ECCA20D83A8 /* ChameleonFramework */;
+			targetProxy = 6F60C2642074C431A9C520489844E01A /* PBXContainerItemProxy */;
+		};
+		271E2747A8F0446064FF1597C2000AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = CBC08580AE5A802626154E0BCABF642B /* Hero */;
+			targetProxy = AE106D763C6CF7B17813C7A2AC42188C /* PBXContainerItemProxy */;
+		};
+		DEE35CDD1EC5E7B169625269BED5E02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftOverlays;
+			target = 5DDBA3480D7A3F5EC3875B6495EF0C6B /* SwiftOverlays */;
+			targetProxy = 1E90E57D224925D16F7DC74D79CD44DE /* PBXContainerItemProxy */;
+		};
+		FAB6FD95C6155B53A6D701FC02491B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 46191C3323F298D96BEBE944B196B0DA /* SwiftyJSON */;
+			targetProxy = 818E7E80E8DE62955EBDB1511A6E7F7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		124888EA2C5ED13C3F8A98215A6EE135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA300955BFD0A8B4EA7D56175AE6E86 /* Pods-FakerNews.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FakerNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakerNews/Pods-FakerNews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FakerNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D4DF95E1B4FAE71FE700124A5193561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946B3626E4CCCB1138379677B328DBCE /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E09A745CF2882E71BFC1132C8D8AE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF65B3E35409C0B07D42B6522F5D856E /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BE16666E0C41AD8140D182A8CBDE64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946B3626E4CCCB1138379677B328DBCE /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EA37AB2FB05ACAE301230A9744BCF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E85E345A300A3C385AACB8C4C3F1C1 /* SwiftOverlays.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOverlays/SwiftOverlays-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOverlays/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftOverlays/SwiftOverlays.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftOverlays;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		868D9F1BA2E5150CB6CD059010227DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0608DB03D3FF41C32148E6DC4A7CB9CA /* Hero.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5DD2C8CF21093A83CF4711342DC566B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0608DB03D3FF41C32148E6DC4A7CB9CA /* Hero.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0F351493E035C6DBDC7FAC97FEA5002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9020038860DDE6046A1E1BF161BE00 /* Pods-FakerNews.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FakerNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FakerNews/Pods-FakerNews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FakerNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C69BDBB9DD5F0CCA4C8EE73D93E946BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E85E345A300A3C385AACB8C4C3F1C1 /* SwiftOverlays.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOverlays/SwiftOverlays-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOverlays/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftOverlays/SwiftOverlays.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftOverlays;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3923CE70A641398913B8A3AA0FDBB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF65B3E35409C0B07D42B6522F5D856E /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07398A672F3D6D682C4B2E94C83E2A0D /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3923CE70A641398913B8A3AA0FDBB30 /* Debug */,
+				3E09A745CF2882E71BFC1132C8D8AE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CBD9A9121B14F31166F0840EE157C17 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE16666E0C41AD8140D182A8CBDE64B /* Debug */,
+				1D4DF95E1B4FAE71FE700124A5193561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CBDA8B214D3457E85226C0A96431FDF /* Build configuration list for PBXNativeTarget "Pods-FakerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F351493E035C6DBDC7FAC97FEA5002 /* Debug */,
+				124888EA2C5ED13C3F8A98215A6EE135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9BE2A98FD32A92C06F220785F909C3 /* Build configuration list for PBXNativeTarget "SwiftOverlays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69BDBB9DD5F0CCA4C8EE73D93E946BE /* Debug */,
+				7EA37AB2FB05ACAE301230A9744BCF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CCCFEE96FFA0873D18EA97455B246E /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DD2C8CF21093A83CF4711342DC566B /* Debug */,
+				868D9F1BA2E5150CB6CD059010227DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

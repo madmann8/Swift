@@ -1,0 +1,6 @@
+framework module Pods_FakerNews {
+  umbrella header "Pods-FakerNews-umbrella.h"
+
+  export *
+  module * { export * }
+}

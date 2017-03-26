@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Gloss.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Hero.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FakeNews.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RAMReel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>39C69D9B6A709F788E7F5A5E2BDCF612</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50F1793B430A190840CB81E07D3DB433</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A652B75AFA6F843EC943915416403CD8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABFEF8403891DB527D4433957A2D5230</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C34FBE12335BECA84AF221E942945C53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
